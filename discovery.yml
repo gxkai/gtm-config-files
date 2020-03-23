@@ -3,7 +3,7 @@ server:
 spring.boot.admin.context-path: /admin
 eureka:
   instance:
-    leaseRenewalIntervalInSeconds: 10
+    leaseRenewalIntervalInSeconds: 11
     health-check-url-path: /actuator/health
   client:
     registryFetchIntervalSeconds: 5
